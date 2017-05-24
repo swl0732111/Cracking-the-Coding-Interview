@@ -4,6 +4,7 @@ public class Subset {
     public ArrayList<ArrayList<Integer>> getSubsets(ArrayList<Integer> set, int index) {
         
 		ArrayList<ArrayList<Integer>> allsubsets;
+		
 		if(set.size() == index) {//终止条件
 			allsubsets = new ArrayList<<>>();
 			allsubsets.add(new ArrayList());//空集合
